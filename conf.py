@@ -14,16 +14,16 @@ highlight_language = 'php'
 primary_domain = 'php'
 
 # set url for API links
-api_url = 'http://api.symfony.com/master/%s'
+api_url = 'http://api.symfony.com/2.3/%s'
 
 # set branch for edit links
 html_context = {
-    'github_branch': 'master',
+    'github_branch': '2.3',
     'github_repository': 'webuni/symfony-docs-cs'
 }
 
 github_docs = [
-    dict(group_name = 'Symfony dokumentace', repository ='symfony/symfony-docs', sha ='master', target_path = ''),
+    dict(group_name = 'Symfony dokumentace', repository ='symfony/symfony-docs', sha ='2.3', target_path = ''),
     dict(group_name = 'Symfony CMF dokumentace', repository ='symfony-cmf/symfony-cmf-docs', sha ='master', target_path = 'cmf'),
     dict(group_name = 'SensioFrameworkExtraBundle dokumentace', repository ='sensiolabs/SensioFrameworkExtraBundle', sha ='master', source_path = 'Resources/doc', target_path = 'bundles/SensioFrameworkExtraBundle'),
     dict(group_name = 'SensioGeneratorBundle dokumentace', repository ='sensiolabs/SensioGeneratorBundle', sha ='master', source_path = 'Resources/doc', target_path = 'bundles/SensioGeneratorBundle'),
