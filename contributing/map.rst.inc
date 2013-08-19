@@ -20,5 +20,5 @@
 * **Komunita**
 
   * :doc:`Proces vývoje </contributing/community/releases>`
-  * :doc:`IRC </contributing/community/irc>`
+  * :doc:`IRC setkání </contributing/community/irc>`
   * :doc:`Další zdroje </contributing/community/other>`
