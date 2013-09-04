@@ -6,6 +6,11 @@ html_title = project = 'Symfony dokumentace'
 master_doc = 'index'
 language = 'cs'
 
+version = '2.3'
+release = '2.3'
+
+exclude_patterns = ['build', 'ENV']
+
 html_theme = 'symfonydocs_cs'
 
 highlight_language = 'php'
