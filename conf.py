@@ -9,7 +9,7 @@ language = 'cs'
 version = '2.3'
 release = '2.3'
 
-exclude_patterns = ['build', 'ENV']
+exclude_patterns = ['build', 'ENV', 'github']
 
 html_theme = 'symfonydocs_cs'
 
@@ -27,6 +27,7 @@ html_context = {
     'github_repository': 'webuni/symfony-docs-cs'
 }
 
+github_dir = 'github'
 github_docs = [
     dict(group_name = 'Symfony dokumentace', repository ='symfony/symfony-docs', sha ='2.3', target_path = ''),
     dict(group_name = 'Symfony CMF dokumentace', repository ='symfony-cmf/symfony-cmf-docs', sha ='master', target_path = 'cmf'),
