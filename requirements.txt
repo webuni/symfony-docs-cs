@@ -1,1 +1,1 @@
-https://github.com/webuni/sphinx-symfonydocs/archive/master.zip
+../sphinx-symfonydocs
